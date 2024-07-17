@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F79C732C3BE09F00EB5052 /* Teatri.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C4F79C722C3BE09F00EB5052 /* Teatri.mlmodel */; };
+		C4F79C752C3BE0E400EB5052 /* ClassificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F79C742C3BE0E400EB5052 /* ClassificationResult.swift */; };
+		C4F79C7A2C3BFDC700EB5052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F79C792C3BFDC700EB5052 /* Assets.xcassets */; };
+		CC0119AB2C36B0D400D95FDA /* PanormusLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0119AA2C36B0D400D95FDA /* PanormusLensApp.swift */; };
+		CC0119AD2C36B0D400D95FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0119AC2C36B0D400D95FDA /* ContentView.swift */; };
+		CC0119B22C36B0D500D95FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0119B12C36B0D500D95FDA /* Preview Assets.xcassets */; };
+		CC0119BC2C36B0D500D95FDA /* PanormusLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0119BB2C36B0D500D95FDA /* PanormusLensTests.swift */; };
+		CC0119C62C36B0D500D95FDA /* PanormusLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0119C52C36B0D500D95FDA /* PanormusLensUITests.swift */; };
+		CC0119C82C36B0D500D95FDA /* PanormusLensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0119C72C36B0D500D95FDA /* PanormusLensUITestsLaunchTests.swift */; };
+		CCD54CFD2C37D357000CF80F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54CFC2C37D357000CF80F /* Card.swift */; };
+		CCD54D0F2C37F8B6000CF80F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D0E2C37F8B6000CF80F /* CameraViewController.swift */; };
+		CCD54D272C37FE50000CF80F /* attractions.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD54D262C37FE50000CF80F /* attractions.json */; };
+		CCD54D282C37FE50000CF80F /* attractions.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD54D262C37FE50000CF80F /* attractions.json */; };
+		CCD54D292C37FE50000CF80F /* attractions.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD54D262C37FE50000CF80F /* attractions.json */; };
+		CCD54D2B2C37FF62000CF80F /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D2A2C37FF62000CF80F /* Attraction.swift */; };
+		CCD54D2C2C37FF62000CF80F /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D2A2C37FF62000CF80F /* Attraction.swift */; };
+		CCD54D2D2C37FF62000CF80F /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D2A2C37FF62000CF80F /* Attraction.swift */; };
+		CCD54D2F2C38007F000CF80F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D2E2C38007F000CF80F /* ModelData.swift */; };
+		CCD54D302C38007F000CF80F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D2E2C38007F000CF80F /* ModelData.swift */; };
+		CCD54D312C38007F000CF80F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D2E2C38007F000CF80F /* ModelData.swift */; };
+		CCD54D332C380348000CF80F /* AttractionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D322C380348000CF80F /* AttractionPage.swift */; };
+		CCD54D342C380348000CF80F /* AttractionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D322C380348000CF80F /* AttractionPage.swift */; };
+		CCD54D352C380348000CF80F /* AttractionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD54D322C380348000CF80F /* AttractionPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0119B82C36B0D500D95FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC01199F2C36B0D400D95FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0119A62C36B0D400D95FDA;
+			remoteInfo = PanormusLens;
+		};
+		CC0119C22C36B0D500D95FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC01199F2C36B0D400D95FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0119A62C36B0D400D95FDA;
+			remoteInfo = PanormusLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F79C722C3BE09F00EB5052 /* Teatri.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Teatri.mlmodel; path = ../../../Downloads/Teatri.mlmodel; sourceTree = "<group>"; };
+		C4F79C742C3BE0E400EB5052 /* ClassificationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationResult.swift; sourceTree = "<group>"; };
+		C4F79C792C3BFDC700EB5052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		CC0119A72C36B0D400D95FDA /* SicilEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SicilEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0119AA2C36B0D400D95FDA /* PanormusLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanormusLensApp.swift; sourceTree = "<group>"; };
+		CC0119AC2C36B0D400D95FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC0119B12C36B0D500D95FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC0119B72C36B0D500D95FDA /* PanormusLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanormusLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0119BB2C36B0D500D95FDA /* PanormusLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanormusLensTests.swift; sourceTree = "<group>"; };
+		CC0119C12C36B0D500D95FDA /* PanormusLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanormusLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0119C52C36B0D500D95FDA /* PanormusLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanormusLensUITests.swift; sourceTree = "<group>"; };
+		CC0119C72C36B0D500D95FDA /* PanormusLensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanormusLensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCD54CFC2C37D357000CF80F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CCD54D0E2C37F8B6000CF80F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CCD54D262C37FE50000CF80F /* attractions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = attractions.json; sourceTree = "<group>"; };
+		CCD54D2A2C37FF62000CF80F /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		CCD54D2E2C38007F000CF80F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CCD54D322C380348000CF80F /* AttractionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0119A42C36B0D400D95FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0119B42C36B0D500D95FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0119BE2C36B0D500D95FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC01199E2C36B0D400D95FDA = {
+			isa = PBXGroup;
+			children = (
+				CCD54D262C37FE50000CF80F /* attractions.json */,
+				CC0119A92C36B0D400D95FDA /* PanormusLens */,
+				CC0119BA2C36B0D500D95FDA /* PanormusLensTests */,
+				CC0119C42C36B0D500D95FDA /* PanormusLensUITests */,
+				CC0119A82C36B0D400D95FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0119A82C36B0D400D95FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0119A72C36B0D400D95FDA /* SicilEye.app */,
+				CC0119B72C36B0D500D95FDA /* PanormusLensTests.xctest */,
+				CC0119C12C36B0D500D95FDA /* PanormusLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0119A92C36B0D400D95FDA /* PanormusLens */ = {
+			isa = PBXGroup;
+			children = (
+				CC0119AA2C36B0D400D95FDA /* PanormusLensApp.swift */,
+				CC0119AC2C36B0D400D95FDA /* ContentView.swift */,
+				C4F79C792C3BFDC700EB5052 /* Assets.xcassets */,
+				C4F79C722C3BE09F00EB5052 /* Teatri.mlmodel */,
+				C4F79C742C3BE0E400EB5052 /* ClassificationResult.swift */,
+				CCD54D0E2C37F8B6000CF80F /* CameraViewController.swift */,
+				CC0119B02C36B0D500D95FDA /* Preview Content */,
+				CCD54CFC2C37D357000CF80F /* Card.swift */,
+				CCD54D2A2C37FF62000CF80F /* Attraction.swift */,
+				CCD54D2E2C38007F000CF80F /* ModelData.swift */,
+				CCD54D322C380348000CF80F /* AttractionPage.swift */,
+			);
+			path = PanormusLens;
+			sourceTree = "<group>";
+		};
+		CC0119B02C36B0D500D95FDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC0119B12C36B0D500D95FDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC0119BA2C36B0D500D95FDA /* PanormusLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0119BB2C36B0D500D95FDA /* PanormusLensTests.swift */,
+			);
+			path = PanormusLensTests;
+			sourceTree = "<group>";
+		};
+		CC0119C42C36B0D500D95FDA /* PanormusLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0119C52C36B0D500D95FDA /* PanormusLensUITests.swift */,
+				CC0119C72C36B0D500D95FDA /* PanormusLensUITestsLaunchTests.swift */,
+			);
+			path = PanormusLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0119A62C36B0D400D95FDA /* SicilEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0119CB2C36B0D500D95FDA /* Build configuration list for PBXNativeTarget "SicilEye" */;
+			buildPhases = (
+				CC0119A32C36B0D400D95FDA /* Sources */,
+				CC0119A42C36B0D400D95FDA /* Frameworks */,
+				CC0119A52C36B0D400D95FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SicilEye;
+			productName = PanormusLens;
+			productReference = CC0119A72C36B0D400D95FDA /* SicilEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC0119B62C36B0D500D95FDA /* PanormusLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0119CE2C36B0D500D95FDA /* Build configuration list for PBXNativeTarget "PanormusLensTests" */;
+			buildPhases = (
+				CC0119B32C36B0D500D95FDA /* Sources */,
+				CC0119B42C36B0D500D95FDA /* Frameworks */,
+				CC0119B52C36B0D500D95FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0119B92C36B0D500D95FDA /* PBXTargetDependency */,
+			);
+			name = PanormusLensTests;
+			productName = PanormusLensTests;
+			productReference = CC0119B72C36B0D500D95FDA /* PanormusLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC0119C02C36B0D500D95FDA /* PanormusLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0119D12C36B0D500D95FDA /* Build configuration list for PBXNativeTarget "PanormusLensUITests" */;
+			buildPhases = (
+				CC0119BD2C36B0D500D95FDA /* Sources */,
+				CC0119BE2C36B0D500D95FDA /* Frameworks */,
+				CC0119BF2C36B0D500D95FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0119C32C36B0D500D95FDA /* PBXTargetDependency */,
+			);
+			name = PanormusLensUITests;
+			productName = PanormusLensUITests;
+			productReference = CC0119C12C36B0D500D95FDA /* PanormusLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC01199F2C36B0D400D95FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CC0119A62C36B0D400D95FDA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CC0119B62C36B0D500D95FDA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CC0119A62C36B0D400D95FDA;
+					};
+					CC0119C02C36B0D500D95FDA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CC0119A62C36B0D400D95FDA;
+					};
+				};
+			};
+			buildConfigurationList = CC0119A22C36B0D400D95FDA /* Build configuration list for PBXProject "PanormusLens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC01199E2C36B0D400D95FDA;
+			productRefGroup = CC0119A82C36B0D400D95FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0119A62C36B0D400D95FDA /* SicilEye */,
+				CC0119B62C36B0D500D95FDA /* PanormusLensTests */,
+				CC0119C02C36B0D500D95FDA /* PanormusLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0119A52C36B0D400D95FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0119B22C36B0D500D95FDA /* Preview Assets.xcassets in Resources */,
+				C4F79C7A2C3BFDC700EB5052 /* Assets.xcassets in Resources */,
+				CCD54D272C37FE50000CF80F /* attractions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0119B52C36B0D500D95FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD54D282C37FE50000CF80F /* attractions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0119BF2C36B0D500D95FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD54D292C37FE50000CF80F /* attractions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0119A32C36B0D400D95FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD54D332C380348000CF80F /* AttractionPage.swift in Sources */,
+				CC0119AD2C36B0D400D95FDA /* ContentView.swift in Sources */,
+				CCD54D2B2C37FF62000CF80F /* Attraction.swift in Sources */,
+				C4F79C752C3BE0E400EB5052 /* ClassificationResult.swift in Sources */,
+				C4F79C732C3BE09F00EB5052 /* Teatri.mlmodel in Sources */,
+				CCD54CFD2C37D357000CF80F /* Card.swift in Sources */,
+				CCD54D2F2C38007F000CF80F /* ModelData.swift in Sources */,
+				CC0119AB2C36B0D400D95FDA /* PanormusLensApp.swift in Sources */,
+				CCD54D0F2C37F8B6000CF80F /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0119B32C36B0D500D95FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD54D2C2C37FF62000CF80F /* Attraction.swift in Sources */,
+				CCD54D342C380348000CF80F /* AttractionPage.swift in Sources */,
+				CCD54D302C38007F000CF80F /* ModelData.swift in Sources */,
+				CC0119BC2C36B0D500D95FDA /* PanormusLensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0119BD2C36B0D500D95FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0119C62C36B0D500D95FDA /* PanormusLensUITests.swift in Sources */,
+				CCD54D2D2C37FF62000CF80F /* Attraction.swift in Sources */,
+				CC0119C82C36B0D500D95FDA /* PanormusLensUITestsLaunchTests.swift in Sources */,
+				CCD54D352C380348000CF80F /* AttractionPage.swift in Sources */,
+				CCD54D312C38007F000CF80F /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC0119B92C36B0D500D95FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0119A62C36B0D400D95FDA /* SicilEye */;
+			targetProxy = CC0119B82C36B0D500D95FDA /* PBXContainerItemProxy */;
+		};
+		CC0119C32C36B0D500D95FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0119A62C36B0D400D95FDA /* SicilEye */;
+			targetProxy = CC0119C22C36B0D500D95FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC0119C92C36B0D500D95FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC0119CA2C36B0D500D95FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0119CC2C36B0D500D95FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PanormusLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H9N59QV26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "L'app utilizza la camera per riconoscere i monumenti";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'app utilizza la posizione per trovare i monumenti vicino a te";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrea.sanfilippo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0119CD2C36B0D500D95FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PanormusLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H9N59QV26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "L'app utilizza la camera per riconoscere i monumenti";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'app utilizza la posizione per trovare i monumenti vicino a te";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrea.sanfilippo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC0119CF2C36B0D500D95FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuele.PanormusLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanormusLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PanormusLens";
+			};
+			name = Debug;
+		};
+		CC0119D02C36B0D500D95FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuele.PanormusLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanormusLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PanormusLens";
+			};
+			name = Release;
+		};
+		CC0119D22C36B0D500D95FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuele.PanormusLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PanormusLens;
+			};
+			name = Debug;
+		};
+		CC0119D32C36B0D500D95FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuele.PanormusLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PanormusLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC0119A22C36B0D400D95FDA /* Build configuration list for PBXProject "PanormusLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0119C92C36B0D500D95FDA /* Debug */,
+				CC0119CA2C36B0D500D95FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0119CB2C36B0D500D95FDA /* Build configuration list for PBXNativeTarget "SicilEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0119CC2C36B0D500D95FDA /* Debug */,
+				CC0119CD2C36B0D500D95FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0119CE2C36B0D500D95FDA /* Build configuration list for PBXNativeTarget "PanormusLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0119CF2C36B0D500D95FDA /* Debug */,
+				CC0119D02C36B0D500D95FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0119D12C36B0D500D95FDA /* Build configuration list for PBXNativeTarget "PanormusLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0119D22C36B0D500D95FDA /* Debug */,
+				CC0119D32C36B0D500D95FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC01199F2C36B0D400D95FDA /* Project object */;
+}
