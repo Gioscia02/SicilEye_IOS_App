@@ -5,4 +5,7 @@ In this case me and my team through some interviews to "Unione Italiana per i ci
 visually impared and visually healthy to enjoy the art and the monuments in Palermo (in Sicily, Italy).
 
 How this app works     
-using a camera that recognize the monument and shows the story of that place.
+It uses the camera to recognize the monument you are framing and automaticaly shows the story of that place.
+
+Who is the target
+Potentialy it's usable for everyone but we paid attention to allow blind and visually impared people to use our app through a simple UI and the Apple VoiceOver.
